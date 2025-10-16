@@ -1,0 +1,40 @@
+{
+  // General customization
+  "window.titleBarStyle": "custom",
+  "workbench.colorTheme": "Tokyo Night",
+  // Readability - Terminal
+  "terminal.integrated.fontFamily": "JetBrains Mono",
+  "terminal.integrated.fontSize": 17,
+  "terminal.integrated.cursorBlinking": true,
+  // Readability - Editor
+  "workbench.editor.empty.hint": "hidden",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontSize": 16,
+  "editor.rulers": [100, 120],
+  "editor.tabSize": 2,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.fontLigatures": false,
+  "editor.cursorSurroundingLines": 3,
+  "editor.minimap.enabled": false,
+  "editor.semanticTokenColorCustomizations": {
+      "enabled": true,
+      "[Tokyo Night]": {
+          "rules": {
+              "parameter": "#E0AF68",
+              "variable": "#c0caf5",
+              "variable.declaration": "#c0caf5",
+              "class": "#2AC3DE",
+              "type": "#2AC3DE",
+              "interface": "#2AC3DE"
+         }
+      }
+  },
+  // Vim
+  "vim.enableNeovim": true,
+  "vim.useCtrlKeys": true,
+  "vim.useSystemClipboard": true,
+  "extensions.experimental.affinity": {
+	  "vscodevim.vim": 1
+  }
+}
