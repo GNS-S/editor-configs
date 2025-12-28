@@ -1,0 +1,40 @@
+{
+  "disable_ai": true,
+  "telemetry": { "diagnostics": false, "metrics": false },
+  "vim_mode": true,
+  "ui_font_size": 16,
+  "buffer_font_size": 15,
+  "theme": { "mode": "dark", "light": "Ayu Light", "dark": "Ayu Dark" },
+  "relative_line_numbers": "enabled",
+  "colorize_brackets": true,
+  "wrap_guides": [100, 120],
+  "indent_guides": { "coloring": "indent_aware", "active_line_width": 2 },
+  "ui_font_family": "JetBrains Mono",
+  "buffer_font_family": "JetBrains Mono",
+  "theme_overrides": {
+    "Ayu Dark": {
+      "players": [{ "cursor": "#ffdd22" }],
+      "editor.active_line_number": "#ffdd22",
+      "syntax": { "keyword": { "color": "#ffdd22", "font_weight": 600 } },
+      "editor.background": "#0a0e14",
+      "editor.gutter.background": "#0a0e14",
+      "background": "#0a0e14",
+      "panel.background": "#0a0e14",
+      "status_bar.background": "#0a0e14",
+      "title_bar.background": "#0a0e14",
+      "toolbar.background": "#0a0e14",
+      "tab_bar.background": "#0a0e14",
+      "tab.active_background": "#0a0e14",
+      "terminal.background": "#0a0e14",
+      "border": "#00000000",
+      "border.variant": "#00000000",
+      "border.focused": "#00000000",
+      "border.selected": "#00000000",
+      "border.transparent": "#00000000",
+      "border.disabled": "#00000000"
+    }
+  },
+  "active_pane_modifiers": {
+    "border_size": 0.0
+  }
+}
