@@ -17,7 +17,7 @@
       "players": [{ "cursor": "#ffdd22" }],
       "editor.active_line_number": "#ffdd22",
       "syntax": { "keyword": { "color": "#ffdd22", "font_weight": 600 } },
-      "editor.invisible": "#333333FF",
+      "editor.invisible": "#282833FF",
       "editor.background": "#0a0e14",
       "editor.gutter.background": "#0a0e14",
       "background": "#0a0e14",
