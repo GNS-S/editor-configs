@@ -8,6 +8,12 @@ opt.softtabstop = 4 -- Number of spaces for a tab when editing
 opt.shiftwidth = 4 -- Number of spaces for autoindent
 opt.shiftround = true -- Round indent to multiple of shiftwidth
 opt.list = true -- Show trailing whitespace characters
+opt.listchars = {
+  space = '·',
+  trail = '·',
+  tab = '->',
+  nbsp = '␣',
+}
 opt.number = true -- Show line numbers
 opt.relativenumber = true -- Show relative line numbers
 opt.wrap = false -- Disable line wrapping
