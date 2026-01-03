@@ -11,7 +11,7 @@ opt.list = true -- Show trailing whitespace characters
 opt.listchars = {
   space = '·',
   trail = '·',
-  tab = '->',
+  tab = '→ ',
   nbsp = '␣',
 }
 opt.number = true -- Show line numbers
@@ -22,3 +22,4 @@ opt.scrolloff = 5 -- Keep 5 lines above and below the cursor
 opt.inccommand = "nosplit" -- Shows the effects of a command incrementally in the buffer
 opt.undodir = os.getenv('HOME') .. '/.vim/undodir' -- Directory for undo files
 opt.undofile = true -- Enable persistent undo
+vim.cmd.colorscheme('lunaperche')
