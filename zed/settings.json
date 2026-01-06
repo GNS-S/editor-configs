@@ -84,7 +84,7 @@
       "editor.highlighted_line.background": "#14151f",
       "editor.line_number": "#3e4461",
       "editor.active_line_number": "#efcd00",
-      "editor.invisible": "#282828FF",
+      "editor.invisible": "#383838FF",
       "editor.wrap_guide": "#101014",
       "editor.active_wrap_guide": "#101014",
       "editor.document_highlight.read_background": "#3e4461",
