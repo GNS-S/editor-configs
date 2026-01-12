@@ -1,7 +1,6 @@
 local opt = vim.opt
 opt.guicursor = "i:block" -- Use block cursor in insert mode
 opt.ignorecase = true -- Ignore case in search
-opt.autoindent = true -- Enable auto indentation
 opt.expandtab = true -- Use spaces instead of tabs
 opt.tabstop = 4 -- Number of spaces for a tab
 opt.softtabstop = 4 -- Number of spaces for a tab when editing
