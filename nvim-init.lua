@@ -1,11 +1,10 @@
 local opt = vim.opt
+opt.clipboard = "unnamedplus" -- Use system clipboard
 opt.guicursor = "i:block" -- Use block cursor in insert mode
 opt.ignorecase = true -- Ignore case in search
 opt.expandtab = true -- Use spaces instead of tabs
 opt.tabstop = 4 -- Number of spaces for a tab
 opt.softtabstop = 4 -- Number of spaces for a tab when editing
-opt.shiftwidth = 4 -- Number of spaces for autoindent
-opt.shiftround = true -- Round indent to multiple of shiftwidth
 opt.list = true -- Show trailing whitespace characters
 opt.listchars = {
   space = '·',
