@@ -94,7 +94,7 @@
       "editor.indent_guide": "#3e4461",
       "editor.indent_guide_active": "#272c3f",
       "terminal.background": "#0b0b0f",
-      "terminal.foreground": null,
+      "terminal.foreground": "#bac1de",
       "terminal.ansi.background": "#0b0b0f",
       "terminal.bright_foreground": null,
       "terminal.dim_foreground": null,
