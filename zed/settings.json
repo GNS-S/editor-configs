@@ -43,7 +43,7 @@
       "drop_target.background": "#14151f",
       "ghost_element.background": "#0b0b0f",
       "ghost_element.hover": "#272c3f",
-      "ghost_element.active": "#9aa5ce",
+      "ghost_element.active": "#efcd00",
       "ghost_element.selected": "#272c3f",
       "ghost_element.disabled": "#3e4461",
       "text": "#bac1de",
